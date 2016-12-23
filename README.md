@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# Jekyll-Avalon
+[Demo](http://joshuaavalon.github.io/Jekyll-Avalon)
+![](https://raw.githubusercontent.com/joshuaavalon/Jekyll-Avalon/master/_screenshot/001.png)
 
-You can use the [editor on GitHub](https://github.com/chenniufly/chenhm/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## About
+Jekyll-Avalon is a [Materialize](https://github.com/dogfalo/materialize) Jekyll theme.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Featuring:
+* Material Design
+* Responsive Web Design
+* Tags and categories browsing
+* Lazy loading images
 
-### Markdown
+## Installation
+This theme ***CANNOT* be built by GitHub. You have to build it yourself.
+Use the following command to build.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+bundle install
+jekyll serve
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Then upload the content in `_site` to GitHub or your host.
 
-### Jekyll Themes
+## Config
+Change everything you need in `_config.yml`. Change the footer in `_includes/footer.html`.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chenniufly/chenhm/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+If you want to change the color, go [here](https://github.com/dogfalo/materialize) to download SASS version 
+and replace the link in `_includes/head.html`.
 
-### Support or Contact
+For comment support, you can use [Disqus](https://disqus.com/) and add the embed code to `_layouts/post.html`.
+Same for Google Analytics, add the embed code to `_includes/script.html`.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Post
+All the usable fields available are in `2016-10-27-welcome-to-jekyll.markdown`.
